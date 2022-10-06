@@ -1,0 +1,51 @@
+\documentclass[a4, 12pt]{article}
+\usepackage{xcolor}
+\usepackage{pagecolor}
+\usepackage{lipsum}
+\setlength\parindent{0pt}
+\pagecolor{black!80}
+\color{white}
+\renewcommand{\bf}{\textbf}
+\usepackage{enumitem}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+
+\usepackage[left=0.5cm,right=0.5cm,
+    top=1.5cm,bottom=1.5cm,bindingoffset=0.5cm]{geometry}
+\usepackage[english,russian]{babel}
+\begin{document}
+
+\begin{center}
+\section*{Научный семинар по теории чисел, ЛНМО, 2022/2023.}
+\subsection*{Задачи и упражнения.}
+\end{center}
+\begin{center}
+    \textsc{Элементарная теория чисел.}
+\end{center}
+
+\bf{1.} Докажите, что числа Ферма $F_n = 2^{2^n} + 1$ попарно взаимно просты. \\
+\emph{Указание.} Удобно доказать и воспользоваться рекуррентной формулой для чисел Ферма. \\
+
+\bf{2.} Для натурального $m > 1$ вычислите в кольце $\mathbb{Z}/m\mathbb{Z}$:
+\begin{itemize}
+    \item Сумму всех элементов.
+    \item Сумму квадратов всех элементов.
+    \item Сумму всех попарных произведений  элементов.
+    \item Сумму всех обратимых элементов.
+    \item Сумму квадратов всех обратимых элементов.
+\end{itemize}
+
+\bf{3.} Докажите \emph{теорему Вильсона.} Сравнение
+\[ (p - 1)! + 1 \equiv 0 \Mod{p} \]
+выполняется тогда и только тогда, когда $p$~---  простое. \\
+
+\bf{4.} Для каких простых чисел $p$ разрешимо сравнение $x^2 + 3 \equiv 0 \Mod{p}$?\\
+
+\bf{5.} Докажите, что все решения сравнения $x^2 + 1 \equiv 0 \Mod{p}$, где $p = 4k + 1, k \in \mathbb{N}$ имеют вид
+\[ x = \pm 1 \cdot 2 \cdot \ldots \cdot 2m \Mod{p} \]
+\emph{Указание.} Удобно воспользоваться теоремой Вильсона
+
+
+
+\end{document}
+
